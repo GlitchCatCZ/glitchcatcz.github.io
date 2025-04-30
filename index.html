@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cz">
+<html lang="cs">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +7,9 @@
   <link rel="icon" type="img/jpg" href="./Pictures/profilovka.jpg">
   <link href="./style.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-<img src="./Pictures/profilovka.jpg" alt="profilovka" style="max-height: 5%; max-width: 5%;">         
+<body>      
+<div>
+<img src="./Pictures/profilovka.jpg" alt="profilovka" style="height: 5%" @media (max-width:600px)="height: 20%;" @media (min-width:992px)="height: 10%;" | width="5%" @media (max-width:600px)="width: 20%" @media (min-width:992px)="width: 10%;">
 <h1> Úvodní strana </h1>
 <p>Vítejte na stránce tvůrce GlitchcatCZ, zde se mužete dovědět o mých aktuálních projektech.</p>
 <!--bin to text-->
@@ -16,17 +17,26 @@
 <p>Zdravím chtěl bych se s vámi podělit s mými plány pro "blízkou" budoucnost. Už nějakou dobu přemýšlím o tom, že oživím svůj youtube kanál. Ovšem očekávejte jiný typ tvorby, než který jsem dříve dělal.</p>
 <p>Mám už nějaké nápady na videa (které nejsou pouze let's playe) a další projekty, některé jsem zpracoval ale kvůli nedávné ztrátě dat jsem o ně přišel. A co se týče starých videí, tak ty jsou neveřejné, kvůli své nespokojenosti s jejich kvalitou.</p>
 <p>Zatím tu pro vás mám (velice amaterský) výkres, který mám ze svého experimentování s grafickým tabletem</p>
-<center><a href="./smile.html" target="_blank"><img src="./Pictures/výkres_v2.svg" style="height: 20%; width: 20%;"></a></center>
+<center><a href="./smile.html" target="_blank"><img src="./Pictures/výkres_v2.svg" style="height: 20%" @media (max-width:600px)="height: 20%;" @media (min-width:992px)="height: 10%;" | width="20%" @media (max-width:600px)="width: 20%" @media (min-width:992px)="width: 10%;" ></a></center>
+</div>
 <p style="color: black;">F12/src<!--wandering is a terrible sin--></p>
+<div>
 <h2>Níže naleznete video, které jsem vytvořil jako testovací shitpost.</h2>
-<center><iframe width="1280" height="720" src="https://www.youtube.com/embed/VsEgfBMXKnk?si=mv3KBmisMt7bPnSP&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center><!--Glorified shitpost-->
+<center><div class="another-container">
+<div class="iframe-container">
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/VsEgfBMXKnk?si=mv3KBmisMt7bPnSP&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><!--Glorified shitpost-->
+</div>
+</div></center>
 <!--01100001 01101001 01100010 01101111 01101000 01110000 01101111 01110010 01110100 01110000 01101111 01110011 01101001 01100101 00100000 01111100 00100000 01110011 01101111 01101101 01100101 01110100 01101000 01101001 01101110 01100111 00100000 01101001 01110011 00100000 01100011 01101111 01101101 01101001 01101110 01100111 00100000 01110011 01101111 01101101 01100101 01110100 01101000 01101001 01101110 01100111 00100000 01101001 01110011 00100000 01101110 01100101 01100001 01110010-->
 <!--Zohkvdz dpaopu zohkvdz. :)| 7s -> c4e5-->
-<a href="https://youtube.com/@glitchcatcz?si=V0nHsDnVwG7wIZZ5" style="text-decoration:none;" target="_blank"><img src="./Pictures/Logos/youtube.png"; width=5% height=5% ;alt="YouTube logo"></a>
-<a href="https://www.instagram.com/glitchcat1296?igsh=MWdrMmI1M2t2cm83Mw==" style="text-decoration:none;" target="_blank"><img src="./Pictures/Logos/instagram-white-icon.png"; width=5% height=5% ;alt="Instagram logo"></a>
+</div>
+<div style="margin-top: 300px;">
+<a href="https://youtube.com/@glitchcatcz?si=V0nHsDnVwG7wIZZ5" style="text-decoration:none;" target="_blank"><img src="./Pictures/Logos/youtube.png"; max-width=5%; max-height=5% ;alt="YouTube logo"></a>
+<a href="https://www.instagram.com/glitchcat1296?igsh=MWdrMmI1M2t2cm83Mw==" style="text-decoration:none;" target="_blank"><img src="./Pictures/Logos/instagram-white-icon.png"; max-width=5%; max-height=5% ;alt="Instagram logo"></a>
 <a href="https://twitter.com/glitchcat1296" style="text-decoration:none;" target="_blank"><img src="./Pictures/Logos/X_logo.jpg"; width=5% height=5% ;alt="X logo"></a>
-<a href="https://github.com/GlitchCatCZ?tab=overview&from=2024-01-01&to=2024-01-31" style="text-decoration:none;" target="_blank"><img src="./Pictures/Logos/github-2.png"; width=5% height=5% ;alt="Github logo"></a>
-<a href="https://gamejolt.com/@GlitchcatCZ" style="text-decoration:none ;" target="_blank"><img src="./Pictures/Logos/gamejolt.png"; width=5% height=5% ;alt="Gamejolt logo"></a> 
+<a href="https://github.com/GlitchCatCZ?tab=overview&from=2024-01-01&to=2024-01-31" style="text-decoration:none;" target="_blank"><img src="./Pictures/Logos/github-2.png"; max-width=5%; max-height=5% ;alt="Github logo"></a>
+<a href="https://gamejolt.com/@GlitchcatCZ" style="text-decoration:none ;" target="_blank"><img src="./Pictures/Logos/gamejolt.png"; width=5% height=5% ;alt="Gamejolt logo"></a>
+</div> 
 <!--watch?v=HsM_VmN6ytk&t=89s-->
 </body>
 </html>
