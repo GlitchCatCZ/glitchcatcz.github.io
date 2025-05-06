@@ -1,2 +1,2 @@
-_odkaz na stránku
+# odkaz na stránku
 # https://glitchcatcz.github.io/
